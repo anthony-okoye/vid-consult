@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>WebRTC Video Chat</title>
+</head>
+<body>
+  <div id="video-grid"></div>
+  <form id="message-form">
+    <input id="message-input" type="text" placeholder="Type a message...">
+    <button type="submit">Send</button>
+  </form>
+  <div id="messages"></div>
+  <!-- Your video chat UI elements here -->
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/peerjs/dist/peerjs.js"></script>
+  <script src="client.js"></script>
+</body>
+</html>
